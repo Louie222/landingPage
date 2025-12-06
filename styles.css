@@ -1,0 +1,59 @@
+.first-container {
+  
+  background-color: #FFB22C;
+  height: 100vh;
+}
+
+.first-container h1 {
+  padding-top: 300px;
+  color: #FF4C4C;
+  font-size: 5rem;
+  text-align: center;
+  
+}
+
+.first-container h2 {
+  color: #FF4C4C;
+  font-size: 3rem;
+  text-align: center;
+  
+
+}
+
+.second-container {
+  
+  background-color: #FFB22C;
+  height: 100vh;
+}
+
+.second-container h1 {
+  padding-top: 300px;
+  color: #FF4C4C;
+  font-size: 5rem;
+  text-align: center;
+  
+ 
+  
+}
+
+.second-container h2 {
+  color: #FF4C4C;
+  font-size: 3rem;
+  text-align: center;
+  
+
+}
+
+.second-container p {
+  color: #000000;
+  font-size: 2rem;
+  text-align: justify;
+  
+  
+
+}
+
+
+
+
+
