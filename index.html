@@ -35,7 +35,7 @@
               <a class="nav-link" href="#">Relief</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" a href="#contact">Contact</a>
             </li> 
           </ul>
           <a class="navbar-brand" href="#">Mr O</a>
@@ -66,24 +66,27 @@
   <!-- contact card -->
    <section>
     <div class="third-container">
+      <div id="contact"></div>
       <div class = row>
         <div class="col-md-5">
         <form>
           <div class="mb-3">
+            <label for="name" class="form-label">Your name</label>
+              <input type="text" class="form-control"  aria-describedby="emailHelp">
+              
+          </div>
+          <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-      </div>
+              
+          </div>
       <div class="mb-3">
-        <label for="exampleInputPassword1" class="form-label">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
+        <label for="message" class="form-label">Your message</label>
+        <textarea name="message" class="form-control" id=""></textarea>
       </div>
-      <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      
+      <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
 
       </div>
       <div class="col-md-7">
