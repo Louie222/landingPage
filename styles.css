@@ -49,9 +49,18 @@
   font-size: 2rem;
   text-align: justify;
   
-  
 
 }
+
+.third-container {
+  height: 100vh;
+}
+
+/* .col-md-6 img {
+  width: 75%;
+  height: 75%;
+  
+} */
 
 
 
