@@ -52,16 +52,24 @@
 
 }
 
-.third-container {
-  
-  
-}
-
-/* .col-md-6 img {
+ .col-md-6 img {
   width: 75%;
   height: 75%;
   
-} */
+} 
+
+main {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
 
 
 
